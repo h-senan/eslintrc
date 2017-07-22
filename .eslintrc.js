@@ -9,7 +9,6 @@ module.exports = {
     }
   }],
   globals: {
-    ps: true,
     Promise: true
   },
   env: {
