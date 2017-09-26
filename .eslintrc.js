@@ -3,11 +3,6 @@ module.exports = {
   plugins: [
     "react"
   ],
-  "no-multi-spaces": [0, {
-    exceptions: {
-      VariableDeclaration: true
-    }
-  }],
   globals: {
     Promise: true
   },
@@ -49,6 +44,11 @@ module.exports = {
     "no-useless-call": [2],
     eqeqeq: [2, "smart"],
     "no-eval": [0],
+    "no-multi-spaces": [0, {
+      exceptions: {
+        VariableDeclaration: true
+      }
+    }],
     // Variables
     "no-unused-vars": [2, {
       vars: "all",
